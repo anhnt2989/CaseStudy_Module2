@@ -34,11 +34,29 @@
         color: white;
     }
 
-    p {
+    h2 {
         text-align: center;
         -webkit-animation: glow 1s ease-in-out infinite alternate;
         -moz-animation: glow 1s ease-in-out infinite alternate;
         animation: glow 1s ease-in-out infinite alternate;
+        color: white;
+    }
+
+    #form {
+        background-image:url("https://hanatemplate.com/images/parchment-png.png");
+        background-size: contain;
+        width: 68%;
+        height: 100%;
+        position: absolute;
+        left: 220px;
+    }
+
+    #content {
+        width: 55%;
+        position: absolute;
+        left: 190px;
+        top: 190px;
+        font-size: large;
     }
 
     @-webkit-keyframes glow {
@@ -67,12 +85,6 @@
         background-color: darkorange;
     }
 
-    /*#form {*/
-    /*    width: 68%;*/
-    /*    position: absolute;*/
-    /*    left: 220px;*/
-    /*    color: white;*/
-    /*}*/
 </style>
 <div id="block">
     <p>
@@ -82,12 +94,11 @@
 </div>
 <body>
 
-<form id="form" th:action="@{/edit-note}" th:object="${note}" method="post">
+<form id="form" th:action="@{/edit-note}" th:object="${note}" method="get">
 
     <h1 th:text="${note.title}"></h1>
     <br><br>
-
-    <p th:text="${note.content}"></p>
+    <p id="content" th:text="${note.content}"></p>
 </form>
 </body>
 </html>
