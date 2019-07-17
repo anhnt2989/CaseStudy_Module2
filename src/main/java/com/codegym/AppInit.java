@@ -27,4 +27,5 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
         characterEncodingFilter.setEncoding("UTF-8");
         return new Filter[] { characterEncodingFilter};
     }
+
 }
