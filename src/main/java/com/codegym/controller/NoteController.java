@@ -92,7 +92,6 @@ public class NoteController {
     @GetMapping("/view-note/{id}")
     public ModelAndView view(@PathVariable("id") Long id) {
         Note note = noteService.findById(id);
-        String s = note.getContent();
         ModelAndView modelAndView = new ModelAndView("/note/view");
         modelAndView.addObject("note", note);
         return modelAndView;

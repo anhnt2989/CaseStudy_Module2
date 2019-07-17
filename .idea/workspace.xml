@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50754bbf-9f0b-4d3c-9562-048681f804e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parchment-png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parchment.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/NoteController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -72,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/NoteController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1094">
-              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+            <state relative-caret-position="-537">
+              <caret line="66" column="28" lean-forward="true" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,23 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="123" column="7" lean-forward="true" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/NoteService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/repository/TypeRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,23 +97,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/Note.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/Type.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1081">
-              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-              <folding>
-                <element signature="e#902#903#0" expanded="true" />
-                <element signature="e#927#928#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="175">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/TypeService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/formatter/TypeFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="253">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,10 +118,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/type/list.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1679">
-              <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+            <state relative-caret-position="127">
+              <caret line="127" selection-start-line="127" selection-end-line="127" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,11 +132,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+            <state relative-caret-position="202">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="97" column="16" lean-forward="true" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
               <folding>
-                <element signature="n#style#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/AppInit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/create.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="101" column="20" lean-forward="true" selection-start-line="101" selection-start-column="20" selection-end-line="103" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="128" column="43" lean-forward="true" selection-start-line="128" selection-start-column="43" selection-end-line="129" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -184,25 +215,25 @@
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/service/TypeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/repository/TypeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/service/impl/TypeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/create.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/delete.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/model/Type.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/controller/TypeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/type/create.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/type/delete.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/type/edit.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/edit.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/type/list.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/repository/NoteRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/service/NoteService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/service/impl/NoteServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/formatter/TypeFormatter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/AppInit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codegym/AppConfig.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4a28b391-e801-44f5-9456-34cc80249bf6/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/view.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/controller/TypeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/repository/NoteRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/AppInit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codegym/controller/NoteController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/create.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/list.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/view.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/edit.html" />
       </list>
     </option>
   </component>
@@ -269,6 +300,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="codegym" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="casestudy-inotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="casestudy-inotes" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegym" type="462c0819:PsiDirectoryNode" />
+              <item name="formatter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="casestudy-inotes" type="b2602c69:ProjectViewProjectNode" />
@@ -472,7 +512,7 @@
       <workItem from="1563273450416" duration="2103000" />
       <workItem from="1563294016602" duration="5468000" />
       <workItem from="1563299979565" duration="72000" />
-      <workItem from="1563331213561" duration="5904000" />
+      <workItem from="1563331213561" duration="11744000" />
     </task>
     <task id="LOCAL-00001" summary="almost done">
       <created>1563297500318</created>
@@ -509,17 +549,31 @@
       <option name="project" value="LOCAL" />
       <updated>1563335802485</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="done paging">
+      <created>1563339816235</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563339816235</updated>
+    </task>
+    <task id="LOCAL-00007" summary="clean">
+      <created>1563339985483</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563339985483</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24824000" />
+    <option name="totallyTimeSpent" value="30664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25794798" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2434971" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -529,7 +583,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3687231" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3687231" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39885223" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -538,7 +592,7 @@
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3299712" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Database Console" order="10" weight="0.32855093" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.38163558" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.38163558" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
@@ -604,7 +658,9 @@
     <MESSAGE value="css view" />
     <MESSAGE value="update unicode" />
     <MESSAGE value="done line-breaking in view" />
-    <option name="LAST_COMMIT_MESSAGE" value="done line-breaking in view" />
+    <MESSAGE value="done paging" />
+    <MESSAGE value="clean" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -639,13 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/delete.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -677,46 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/TypeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <caret line="70" column="18" lean-forward="true" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="95" column="100" selection-start-line="95" selection-start-column="96" selection-end-line="95" selection-end-column="100" />
-          <folding>
-            <element signature="n#style#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/repository/NoteRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.17.RELEASE/42a297f13fd0c2bf304f0b4f589b589dc1e69159/spring-web-4.3.17.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -734,33 +743,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/repository/TypeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/NoteService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/Note.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -782,16 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/AppInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://4a28b391-e801-44f5-9456-34cc80249bf6/schema/inotes/table/notes">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="eaf6c4b9-6293-4b63-a19a-c0802fbf26b2">
@@ -808,10 +786,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/AppConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/TypeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2110">
-          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+        <state relative-caret-position="223">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/Note.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/repository/NoteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -820,28 +819,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/formatter/TypeFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="253">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/view.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="127">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
           <folding>
-            <element signature="n#style#0;n#html#0;n#!!top" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/AppInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/repository/TypeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="101" column="20" lean-forward="true" selection-start-line="101" selection-start-column="20" selection-end-line="103" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/NoteController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1094">
-          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        <state relative-caret-position="-537">
+          <caret line="66" column="28" lean-forward="true" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -850,10 +885,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="123" column="7" lean-forward="true" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="7" />
+        <state relative-caret-position="100">
+          <caret line="128" column="43" lean-forward="true" selection-start-line="128" selection-start-column="43" selection-end-line="129" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="97" column="16" lean-forward="true" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
           <folding>
-            <element signature="n#style#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
