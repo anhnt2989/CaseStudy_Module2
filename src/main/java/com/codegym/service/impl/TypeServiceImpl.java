@@ -12,8 +12,8 @@ public class TypeServiceImpl implements TypeService {
     private TypeRepository typeRepository;
 
     @Override
-    public Page<Type> findAll(Pageable pageable) {
-        return typeRepository.findAll(pageable);
+    public Iterable<Type> findAll() {
+        return typeRepository.findAll();
     }
 
     @Override

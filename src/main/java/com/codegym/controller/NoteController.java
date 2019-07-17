@@ -26,8 +26,9 @@ public class NoteController {
     private TypeService typeService;
 
     @ModelAttribute("types")
-    public Iterable<Type> types(Pageable pageable) {
-        return typeService.findAll(pageable);
+    public Iterable<Type> types( ) {
+        Iterable<Type> types=typeService.findAll();
+        return typeService.findAll();
     }
 
     @GetMapping("/notes")

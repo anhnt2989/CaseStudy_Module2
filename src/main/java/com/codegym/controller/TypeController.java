@@ -21,9 +21,9 @@ public class TypeController {
     private TypeService typeService;
 
     @GetMapping("/types")
-    public ModelAndView list(Pageable pageable) {
+    public ModelAndView list( ) {
         ModelAndView modelAndView = new ModelAndView("/type/list");
-        modelAndView.addObject("types", typeService.findAll(pageable));
+        modelAndView.addObject("types", typeService.findAll());
         return modelAndView;
     }
 
