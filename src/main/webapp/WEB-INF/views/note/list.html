@@ -109,9 +109,9 @@
 
 <div id="types">
     <form>
-    <select name="type">
-        <option th:each="type : ${types}" th:value="${type.id}" th:text="${type.name}"></option>
-    </select>
+        <select name="type">
+            <option th:each="type : ${types}" th:value="${type.id}" th:text="${type.name}"></option>
+        </select>
         <input type="submit" value="List by type">
     </form>
 </div>
