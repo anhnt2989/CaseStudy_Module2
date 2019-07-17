@@ -6,6 +6,12 @@
 </head>
 <style>
 
+    #buttons {
+        position: absolute;
+        top: 750px;
+        left: 500px;
+    }
+
     h1 {
         text-align: center;
         overflow: hidden;
@@ -43,7 +49,7 @@
     }
 
     #form {
-        background-image:url("http://clipart-library.com/img/1244375.jpg");
+        background-image: url("http://clipart-library.com/img/1244375.jpg");
         background-size: contain;
         background-repeat: no-repeat;
         width: 68%;
@@ -104,5 +110,13 @@
     <br><br>
     <pre id="content" th:text="${note.content}"></pre>
 </form>
+<div id="buttons">
+    <a th:href="@{/edit-note/__${note.id}__}">
+        <button>Edit</button>
+    </a>
+    <a th:href="@{/delete-note/__${note.id}__}">
+        <button>Delete</button>
+    </a>
+</div>
 </body>
 </html>

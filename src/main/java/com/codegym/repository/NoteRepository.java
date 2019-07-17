@@ -11,4 +11,5 @@ import org.springframework.data.domain.Page;
 public interface NoteRepository extends PagingAndSortingRepository<Note, Long> {
     Page<Note> findAllByTitleContainingOrContentContaining(
             String title, String content, Pageable pageable);
+    Page<Note> findAllByType(Type type,Pageable pageable);
 }

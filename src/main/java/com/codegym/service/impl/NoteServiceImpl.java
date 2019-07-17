@@ -1,6 +1,7 @@
 package com.codegym.service.impl;
 
 import com.codegym.model.Note;
+import com.codegym.model.Type;
 import com.codegym.repository.NoteRepository;
 import com.codegym.service.NoteService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +18,11 @@ public class NoteServiceImpl implements NoteService {
     @Override
     public Page<Note> findAll(Pageable pageable) {
         return noteRepository.findAll(pageable);
+    }
+
+    @Override
+    public Page<Note> findAllByType(Type type, Pageable pageable) {
+        return noteRepository.findAllByType(type,pageable);
     }
 
     @Override

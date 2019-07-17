@@ -31,10 +31,13 @@ public class NoteController {
     }
 
     @GetMapping("/notes")
-    public ModelAndView list(@RequestParam("s") Optional<String> s, @PageableDefault(size = 5) Pageable pageable) {
+    public ModelAndView list(@RequestParam("type") Optional<Long> type, @RequestParam("s") Optional<String> s, @PageableDefault(size = 5) Pageable pageable) {
         Page<Note> notes;
         if (s.isPresent()) {
             notes = noteService.findAllByTitleContainingOrContentContaining(s.get(), s.get(), pageable);
+        } else if (type.isPresent()) {
+            Type type1=typeService.findById(type.get());
+            notes = noteService.findAllByType(type1, pageable);
         } else {
             notes = noteService.findAll(pageable);
         }
