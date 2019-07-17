@@ -6,6 +6,16 @@
 </head>
 <style>
 
+    #types {
+        text-align: left;
+        position: absolute;
+        top: 150px;
+    }
+
+    #types input {
+        border-radius: 10px;
+    }
+
     #search {
         text-align: right;
     }
@@ -97,9 +107,17 @@
     <br>
 </div>
 
+<div id="types">
+    <form>
+    <select name="type">
+        <option th:each="type : ${types}" th:value="${type.id}" th:text="${type.name}"></option>
+    </select>
+        <input type="submit" value="List by type">
+    </form>
+</div>
+
 <table id="notes">
     <tr>
-<!--        <th>Order number</th>-->
         <th>Title</th>
         <th>Type</th>
         <th>Actions</th>
