@@ -144,9 +144,9 @@
         <tr>
             <td th:text="${note.title}"></td>
             <td th:text="${note.type.name}"></td>
-            <td style="text-align: center"><a th:href="@{/edit-note/__${note.id}__}">Edit</a>
-                <a th:href="@{/delete-note/__${note.id}__}">Delete</a>
-                <a th:href="@{/view-note/__${note.id}__}">View</a></td>
+            <td style="text-align: center"><a th:href="@{/edit-note/__${note.id}__}"><img src="https://i.imgur.com/0ZYLnTD.png" alt="Modify"></a>
+                <a th:href="@{/delete-note/__${note.id}__}"><img src="https://i.imgur.com/O60ACJk.png" alt="Delete"></a>
+                <a th:href="@{/view-note/__${note.id}__}"><img src="https://i.imgur.com/FhiXEpa.png" alt="View"></a></td>
         </tr>
     </th:block>
 </table>
