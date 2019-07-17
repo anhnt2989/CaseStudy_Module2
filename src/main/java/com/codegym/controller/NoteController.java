@@ -34,7 +34,7 @@ public class NoteController {
     }
 
     @GetMapping("/notes")
-    public ModelAndView list(@RequestParam("s") Optional<String> s, @PageableDefault(size = 10) Pageable pageable) {
+    public ModelAndView list(@RequestParam("s") Optional<String> s, @PageableDefault(size = 5) Pageable pageable) {
         Page<Note> notes;
         if (s.isPresent()) {
             notes = noteService.findAllByTitleContainingOrContentContaining(s.get(), s.get(), pageable);
