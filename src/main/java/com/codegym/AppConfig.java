@@ -47,7 +47,7 @@ public class AppConfig extends WebMvcConfigurerAdapter implements ApplicationCon
     private ApplicationContext applicationContext;
 
     @Bean
-    public NoteService noteService(){
+    public NoteService noteService() {
         return new NoteServiceImpl();
     }
 
@@ -88,8 +88,6 @@ public class AppConfig extends WebMvcConfigurerAdapter implements ApplicationCon
         viewResolver.setCharacterEncoding("UTF-8");
         return viewResolver;
     }
-
-
 
 
     //JPA configuration

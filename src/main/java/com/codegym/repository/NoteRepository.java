@@ -9,6 +9,6 @@ import org.springframework.data.domain.Page;
 
 //Hỗ trợ kết nối với database, CRUD tự động với database
 public interface NoteRepository extends PagingAndSortingRepository<Note, Long> {
-     Page<Note> findAllByTitleContainingOrContentContaining(
+    Page<Note> findAllByTitleContainingOrContentContaining(
             String title, String content, Pageable pageable);
 }
